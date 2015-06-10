@@ -79,9 +79,12 @@ end
 
 describe "#multiply" do
 
-  it "multiplies two numbers"
+  it "multiplies two numbers" do
+    multiply(4,5).should == 20
+  end
 
   it "multiplies several numbers"
+
 
 end
 
